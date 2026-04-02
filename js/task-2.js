@@ -20,6 +20,8 @@ function makeArray(firstArray, secondArray, maxLength) {
       return result;
     }
   }
+  
+  return result;
 }
 
 console.log(makeArray(['Mango', 'Poly'], ['Ajax', 'Chelsea'], 3)); // ["Mango", "Poly", "Ajax"]
